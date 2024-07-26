@@ -1,0 +1,16 @@
+D:\Колледж\УП РиСПО\Проект\MeteoShedule\MeteoShedule\bin\Debug\MeteoShedule.exe.config
+D:\Колледж\УП РиСПО\Проект\MeteoShedule\MeteoShedule\bin\Debug\MeteoShedule.exe
+D:\Колледж\УП РиСПО\Проект\MeteoShedule\MeteoShedule\bin\Debug\MeteoShedule.pdb
+D:\Колледж\УП РиСПО\Проект\MeteoShedule\MeteoShedule\obj\Debug\MeteoShedule.csproj.AssemblyReference.cache
+D:\Колледж\УП РиСПО\Проект\MeteoShedule\MeteoShedule\obj\Debug\MeteoShedule.Form1.resources
+D:\Колледж\УП РиСПО\Проект\MeteoShedule\MeteoShedule\obj\Debug\MeteoShedule.Properties.Resources.resources
+D:\Колледж\УП РиСПО\Проект\MeteoShedule\MeteoShedule\obj\Debug\MeteoShedule.csproj.GenerateResource.cache
+D:\Колледж\УП РиСПО\Проект\MeteoShedule\MeteoShedule\obj\Debug\MeteoShedule.csproj.CoreCompileInputs.cache
+D:\Колледж\УП РиСПО\Проект\MeteoShedule\MeteoShedule\obj\Debug\MeteoShedule.exe
+D:\Колледж\УП РиСПО\Проект\MeteoShedule\MeteoShedule\obj\Debug\MeteoShedule.pdb
+D:\Колледж\УП РиСПО\Проект\MeteoShedule\MeteoShedule\bin\Debug\MeteoShedule.accdb
+D:\Колледж\УП РиСПО\Проект\MeteoShedule\MeteoShedule\obj\Debug\MeteoShedule.Form2.resources
+D:\Колледж\УП РиСПО\Проект\MeteoShedule\MeteoShedule\obj\Debug\MeteoShedule.Form3.resources
+D:\Колледж\УП РиСПО\Проект\MeteoShedule\MeteoShedule\obj\Debug\MeteoShedule.Form4.resources
+D:\Колледж\УП РиСПО\Проект\MeteoShedule\MeteoShedule\obj\Debug\MeteoShedule.Form5.resources
+D:\Колледж\УП РиСПО\Проект\MeteoShedule\MeteoShedule\obj\Debug\MeteoShedule.Form6.resources
