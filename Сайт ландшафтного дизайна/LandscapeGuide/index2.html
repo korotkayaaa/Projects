@@ -1,0 +1,200 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+          integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+          crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <header>
+            <a href="./index2.html" class="p-0 m-0 w-auto"><img class="logo" src="./images/logo.png"></a>
+            <nav>
+              <div class="navigation"><a href="aboutLandscape2.html" class="text-dark text-decoration-none">О ландшафтном дизайне</a></div>
+              <div class="navigation"><a href="lawn2.html" class="text-dark text-decoration-none">Газон</a></div>
+              <div class="navigation"><a href="fencing2.html" class="text-dark text-decoration-none">Дорожки и ограждения</a></div>
+              <div class="navigation"><a href="designLawn2.html" class="text-dark text-decoration-none">Оформление газона</a></div>
+              <div class="navigation"><a href="pond2.html" class="text-dark text-decoration-none">Водоемы</a></div>
+              <div class="btn-group">
+                <button type="button" style="border:none; background: rgba(0, 165, 116, 0.5); color: white;" class="btn btn-primary" id="night-mode-button">Ночной режим</button>
+                <button type="button" style="border:none; background: rgba(0, 165, 116, 0.5); color: white;" class="btn btn-primary"id="open-modal">Подписаться</button>
+                <button type="button" style="border:none; background: rgba(0, 165, 116, 0.5); color: white;" class="btn btn-primary"id="review">Оставить отзыв</button>
+              </div>
+            </nav>
+          </header>
+          <script>
+            const redirectButton = document.getElementById('review');
+        
+            // Добавляем обработчик клика на кнопку
+            redirectButton.addEventListener('click', function() {
+              // Переходим на другую страницу
+              window.location.href = 'review.html';
+            });
+          </script>
+        <div class="container">
+            <div class="my-5" style="margin-top: 5rem !important;">
+              <h5>Ознакомьтесь с примерами ландшафтного дизайна</h5>
+            </div>
+            <div class="font-weight-bold mb-5">
+            <h4>  Ландшафтный дизайн проекты </h4>
+            </div>
+            <div class="row">
+              <div class="col-md-3 mb-4">
+                <img class="img-fluid" src="./images/img2.jpg">
+              </div>
+              <div class="col-md-3 mb-4">
+                <img class="img-fluid" src="./images/img1.jpg">
+              </div>
+              <div class="col-md-3 mb-4">
+                <img class="img-fluid" src="./images/10.jpg">
+              </div>
+              <div class="col-md-3 mb-4">
+                <img class="img-fluid" src="./images/11.jpg">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 mb-4">
+                <img class="img-fluid" src="./images/12.jpg">
+              </div>
+              <div class="col-md-3 mb-4">
+                <img class="img-fluid" src="./images/13.jpg">
+              </div>
+              <div class="col-md-3 mb-4">
+                <img class="img-fluid" src="./images/14.jpg">
+              </div>
+              <div class="col-md-3 mb-4">
+                <img class="img-fluid" src="./images/15.jpg">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 mb-4">
+                <img class="img-fluid" src="./images/16.jpg">
+              </div>
+              <div class="col-md-3 mb-4">
+                <img class="img-fluid" src="./images/17.jpg">
+              </div>
+              <div class="col-md-3 mb-4">
+                <img class="img-fluid" src="./images/18.jpg">
+              </div>
+              <div class="col-md-3 mb-4">
+                <img class="img-fluid" src="./images/19.jpg">
+              </div>
+            </div>
+          </div>
+          <script>
+            $(document).ready(function(){
+              $("#night-mode-button").click(function(){
+                $("body").toggleClass("night-mode");
+              });
+            });
+          </script>    
+          <br>
+          <div id="modal">
+              <div id="modal-content">
+                <div id="subscription-widget">
+                    <form id="subscription-form">
+                      <label for="email">Подпишитесь на наши новости:</label>
+                      <input type="email" id="email" name="email" placeholder="Введите ваш email" required>
+                      <input type="submit" value="Подписаться">
+                    </form>
+                  </div>
+              </div>
+            </div>
+            <script>
+            $(document).ready(function() {
+                $('#subscription-form').submit(function(event) {
+                  event.preventDefault();
+                  var email = $('#email').val();
+                  alert('Спасибо за подписку, ' + email + '!');
+                  $("#modal").fadeOut();
+                });
+              });
+            </script>
+            <script>
+                $(document).ready(function(){
+                  $("#open-modal").click(function(){
+                    $("#modal").fadeIn();
+                  });
+                  
+                  $("#close-modal").click(function(){
+                    $("#modal").fadeOut();
+                  });
+                });
+              </script>
+            <div class="container-fluid d-flex flex-column justify-content-center align-items-center" style="background-image: url(./images/Background.png); height: 400px;">
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <h1 class="w-auto h-auto">Современный ландшафтный дизайн</h1>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <p class="textinform">Ландшафтный дизайн — это искусство, которое превращает обыденные пространства в места, где природа и человеческая креативность сливаются в гармоничное целое. В последние годы, особенно в 2023-2024, актуальность ландшафтного дизайна возросла, поскольку люди стремятся создать уголки природы, где можно найти уединение и покой, восстановить силы и насладиться красотой окружающего мира</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <h1 style="width: auto; height: auto;  margin-top: 5px; margin-bottom: 20px;">Интересные факты</h1>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="d-flex">
+                      <img class="img-fluid mr-3" src="./images/24.png" alt="Icon" style="max-width: 50px; max-height: 50px;">
+                      <div>
+                        <h2 style="color: rgb(42, 67, 98); font-size: 15px;">СОЦИАЛЬНАЯ РОЛЬ</h2>
+                        <p>Ландшафтный дизайн играет ключевую роль в формировании социальных пространств. Открытые гостинные и природные бассейны становятся местами для общения и отдыха, способствуя укреплению общественных связей</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="d-flex">
+                      <img class="img-fluid mr-3" src="./images/22.png" alt="Icon" style="max-width: 50px; max-height: 50px;">
+                      <div>
+                        <h2 style="color: rgb(42, 67, 98); font-size: 15px;">ЭСТЕТИЧЕСКАЯ ЦЕННОСТЬ</h2>
+                        <p>Неоспоримая красота и эстетика ландшафтного дизайна делают его не только актуальным, но и вечным. Классические дачные сады, французские парки и английские сады адаптируются к современным требованиям, сохраняя свою привлекательность на десятилетия вперед.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="d-flex">
+                      <img class="img-fluid mr-3" src="./images/21.png" alt="Icon" style="max-width: 50px; max-height: 50px;">
+                      <div>
+                        <h2 style="color: rgb(42, 67, 98); font-size: 15px;">ЭКОЛОГИЧЕСКАЯ ЗНАЧИМОСТЬ</h2>
+                        <p>Современный ландшафтный дизайн акцентирует внимание на экологичности и устойчивости к изменениям климата. Использование засухоустойчивых растений и создание экологически чистых садов становится не просто модной тенденцией, а необходимостью</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="d-flex">
+                      <img class="img-fluid mr-3" src="./images/23.png" alt="Icon" style="max-width: 50px; max-height: 50px;">
+                      <div>
+                        <h2 style="color: rgb(42, 67, 98); font-size: 15px;">ТРЕНДЫ И СТАТИСТИКА</h2>
+                        <p>Статистика показывает, что более 60% новых проектов ландшафтного дизайна включают элементы, способствующие сохранению биоразнообразия и поддержанию экосистемы. Это включает в себя создание мини-лугов, использование натуральных материалов и интеграцию органических огородов в общий дизайн</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <footer class="h-100" style="height: 100% !important;">
+                <div class="d-flex align-items-center justify-content-center flex-row">
+                  <div>
+                    <p class="text-brown font-family-montsserat-medium fs-6 me-5" style="color: brown;">&copy; 2024</p>
+                    <p class="text-brown font-family-montsserat-medium fs-6" style="color: brown;">Разработала: Долгая М.В.</p>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-center">
+                    <iframe src="https://www.b2b.by/polock/adresa/ulica-23-x-gvardejcev/" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  </div>
+                </div>
+              </footer>
+</body>
+</html>        

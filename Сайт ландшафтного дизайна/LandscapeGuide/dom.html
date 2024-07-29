@@ -1,0 +1,222 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var header = document.createElement('header');
+    var logoLink = document.createElement('a');
+    logoLink.href = './index.html';
+    logoLink.style.cssText = 'padding: 0; margin: 0; width: auto;';
+    var logoImg = document.createElement('img');
+    logoImg.className = 'logo';
+    logoImg.src = './images/logo.png';
+    logoLink.appendChild(logoImg);
+    header.appendChild(logoLink);
+    var menu = document.createElement('menu');
+    var navigationItems = [
+        { href: 'aboutLandscape.html', text: 'О ландшафтном дизайне' },
+        { href: 'lawn.html', text: 'Газон' },
+        { href: 'fencing.html', text: 'Дорожки и ограждения' },
+        { href: 'designLawn.html', text: 'Оформление газона' },
+        { href: 'pond.html', text: 'Водоемы' }];
+        
+        navigationItems.forEach(function(item) {
+        var navDiv = document.createElement('div');
+        navDiv.className = 'navigation';
+        var navLink = document.createElement('a');
+        navLink.href = item.href;
+        navLink.style.cssText = 'color: black; text-decoration: none;';
+        navLink.textContent = item.text;
+        navDiv.appendChild(navLink);
+        menu.appendChild(navDiv);
+    });
+    
+    header.appendChild(menu);
+    document.body.appendChild(header);
+    var mainContent = document.createElement('div');
+    mainContent.className = 'hcontent';
+    mainContent.textContent = 'Ознакомьтесь с примерами ландшафтного дизайна';
+    document.body.appendChild(mainContent);
+     mainContent = document.createElement('div');
+    mainContent.className = 'boldcontent';
+    mainContent.textContent = 'Ландшафтный дизайн проекты';
+    document.body.appendChild(mainContent);
+    mainContent = document.createElement('div');
+    mainContent.className = 'content_img';
+    var maintwo = document.createElement('div');
+    mainContent.className = 'container_img';
+    var conrow = document.createElement('div');
+    conrow.className = 'container_row';
+    var image = document.createElement('img');
+    image.className = 'example_img';
+    image.src = "./images/img2.jpg";
+    conrow.appendChild(image);
+    image = document.createElement('img');
+    image.className = 'example_img';
+    image.src = "./images/img1.jpg";
+    conrow.appendChild(image);
+    image = document.createElement('img');
+    image.className = 'example_img';
+    image.src = "./images/10.jpg";
+    conrow.appendChild(image);
+    image = document.createElement('img');
+    image.className = 'example_img';
+    image.src = "./images/11.jpg";
+    conrow.appendChild(image);
+
+    var conrow2 = document.createElement('div');
+    conrow2.className = 'container_row';
+    var image = document.createElement('img');
+    image.className = 'example_img';
+    image.src = "./images/12.jpg";
+    conrow2.appendChild(image);
+    image = document.createElement('img');
+    image.className = 'example_img';
+    image.src = "./images/13.jpg";
+    conrow2.appendChild(image);
+    image = document.createElement('img');
+    image.className = 'example_img';
+    image.src = "./images/14.jpg";
+    conrow2.appendChild(image);
+    image = document.createElement('img');
+    image.className = 'example_img';
+    image.src = "./images/15.jpg";
+    conrow2.appendChild(image);
+
+    var conrow3 = document.createElement('div');
+    conrow3.className = 'container_row';
+    var image = document.createElement('img');
+    image.className = 'example_img';
+    image.src = "./images/16.jpg";
+    conrow3.appendChild(image);
+    image = document.createElement('img');
+    image.className = 'example_img';
+    image.src = "./images/17.jpg";
+    conrow3.appendChild(image);
+    image = document.createElement('img');
+    image.className = 'example_img';
+    image.src = "./images/18.jpg";
+    conrow3.appendChild(image);
+    image = document.createElement('img');
+    image.className = 'example_img';
+    image.src = "./images/19.jpg";
+    conrow3.appendChild(image);
+    maintwo.appendChild(conrow);
+    maintwo.appendChild(conrow2);
+    maintwo.appendChild(conrow3);
+    mainContent.appendChild(maintwo);
+    document.body.appendChild(mainContent);
+
+    mainContent = document.createElement('div');
+    mainContent.className = 'container_facts';
+    maintwo = document.createElement('div');
+    maintwo.className = 'headtext';
+    maintwo.textContent = "Современный ландшафтный дизайн";
+    mainContent.appendChild(maintwo);
+    maintwo = document.createElement('div');
+    maintwo.className = 'textinform';
+    maintwo.textContent = "Ландшафтный дизайн — это искусство, которое превращает обыденные пространства в места, где природа и человеческая креативность сливаются в гармоничное целое. В последние годы, особенно в 2023-2024, актуальность ландшафтного дизайна возросла, поскольку люди стремятся создать уголки природы, где можно найти уединение и покой, восстановить силы и насладиться красотой окружающего мира";
+    mainContent.appendChild(maintwo);
+    document.body.appendChild(mainContent);
+    mainContent = document.createElement('div');
+    mainContent.className = 'container_inform';
+    maintwo = document.createElement('h1');
+    maintwo.textContent = "Интересные факты";
+    mainContent.appendChild(maintwo);
+    document.body.appendChild(mainContent);
+
+    mainContent = document.createElement('div');
+    mainContent.className = 'facts';
+    maintwo =document.createElement('div');
+    maintwo.className = 'inner_facts';
+    image = document.createElement('img');
+    image.className = 'ico';
+    maintwo.appendChild(image);
+    image.src = "./images/24.png";
+    var fact = document.createElement('div');
+    fact.className = 'fact';
+    var tt = document.createElement('h2');
+    tt.textContent = 'СОЦИАЛЬНАЯ РОЛЬ';
+    fact.appendChild(tt);
+    tt = document.createElement('p');
+    tt.className="inffact";
+    tt.textContent = 'Ландшафтный дизайн играет ключевую роль в формировании социальных пространств. Открытые гостинные и природные бассейны становятся местами для общения и отдыха, способствуя укреплению общественных связей';
+    fact.appendChild(tt);
+    maintwo.appendChild(fact);
+    mainContent.appendChild(maintwo);
+
+    maintwo =document.createElement('div');
+    maintwo.className = 'inner_facts';
+    image = document.createElement('img');
+    image.className = 'ico';
+    maintwo.appendChild(image);
+    image.src = "./images/22.png";
+    var fact = document.createElement('div');
+    fact.className = 'fact';
+    var tt = document.createElement('h2');
+    tt.textContent = 'ЭСТЕТИЧЕСКАЯ ЦЕННОСТЬ';
+    fact.appendChild(tt);
+    tt = document.createElement('p');
+    tt.className="inffact";
+    tt.textContent = 'Неоспоримая красота и эстетика ландшафтного дизайна делают его не только актуальным, но и вечным. Классические дачные сады, французские парки и английские сады адаптируются к современным требованиям, сохраняя свою привлекательность на десятилетия вперед.';
+    fact.appendChild(tt);
+    maintwo.appendChild(fact);
+    mainContent.appendChild(maintwo);
+    document.body.appendChild(mainContent);
+    
+    mainContent = document.createElement('div');
+    mainContent.className = 'facts';
+    maintwo =document.createElement('div');
+    maintwo.className = 'inner_facts';
+    image = document.createElement('img');
+    image.className = 'ico';
+    maintwo.appendChild(image);
+    image.src = "./images/21.png";
+    var fact = document.createElement('div');
+    fact.className = 'fact';
+    var tt = document.createElement('h2');
+    tt.textContent = 'ЭКОЛОГИЧЕСКАЯ ЗНАЧИМОСТЬ';
+    fact.appendChild(tt);
+    tt = document.createElement('p');
+    tt.className="inffact";
+    tt.textContent = 'Современный ландшафтный дизайн акцентирует внимание на экологичности и устойчивости к изменениям климата. Использование засухоустойчивых растений и создание экологически чистых садов становится не просто модной тенденцией, а необходимостью';
+    fact.appendChild(tt);
+    maintwo.appendChild(fact);
+    mainContent.appendChild(maintwo);
+
+    maintwo =document.createElement('div');
+    maintwo.className = 'inner_facts';
+    image = document.createElement('img');
+    image.className = 'ico';
+    maintwo.appendChild(image);
+    image.src = "./images/23.png";
+    var fact = document.createElement('div');
+    fact.className = 'fact';
+    var tt = document.createElement('h2');
+    tt.textContent = 'ТРЕНДЫ И СТАТИСТИКА';
+    fact.appendChild(tt);
+    tt = document.createElement('p');
+    tt.className="inffact";
+    tt.textContent = 'Статистика показывает, что более 60% новых проектов ландшафтного дизайна включают элементы, способствующие сохранению биоразнообразия и поддержанию экосистемы. Это включает в себя создание мини-лугов, использование натуральных материалов и интеграцию органических огородов в общий дизайн';
+    fact.appendChild(tt);
+    maintwo.appendChild(fact);
+    mainContent.appendChild(maintwo);
+    document.body.appendChild(mainContent);
+    var footer = document.createElement('footer');
+    var copyRight = document.createElement('p');
+    copyRight.style.cssText = 'color: brown; font-family: "Montsserat Medium"; font-size: 12px; margin-right:10%;';
+    copyRight.textContent = '© 2024';
+    var developerInfo = document.createElement('p');
+    developerInfo.style.cssText = 'color: brown; font-family: "Montsserat Medium"; font-size: 12px;';
+    developerInfo.textContent = 'Разработала: Долгая М.В.';
+    footer.appendChild(copyRight);
+    footer.appendChild(developerInfo);
+
+    document.body.appendChild(footer);
+   
+})
+        </script>
+    </body>
+</html>

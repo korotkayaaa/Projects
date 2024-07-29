@@ -1,0 +1,151 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    </head>
+    <body>
+       <header>
+        <a href="./index.html" style="padding: 0; margin: 0; width: auto;"><img class = "logo" src="./images/logo.png"></a>
+        <menu>
+            <div class="navigation"><a href="aboutLandscape.html" style="color: black; text-decoration: none;"> О ландшафтном дизайне</a></div>
+            <div class="navigation"><a href="lawn.html" style="color: black; text-decoration: none;">Газон</a></div>
+            <div class="navigation"><a href="fencing.html" style="color: black; text-decoration: none;">Дорожки и ограждения</a></div>
+            <div class="navigation"><a href="designLawn.html" style="color: black; text-decoration: none;">Оформление газона</a></div>
+            <div class="navigation"><a href="pond.html" style="color: black; text-decoration: none;">Водоемы</a></div>
+        </menu>
+       </header> 
+       <script>
+        $(document).ready(function(){
+          $("#night-mode-button").click(function(){
+            $("body").toggleClass("night-mode");
+          });
+        });
+      </script>
+              <button id="night-mode-button" style="position: absolute;
+              top: 50%;
+              transform: translateY(+80%);
+              background: rgba(0, 165, 116, 0.5);
+              color: white;
+              padding: 10px 20px;
+              border: none;
+              cursor: pointer;">Ночной режим</button>
+      <br>
+      <button id="open-modal">Подписаться</button>
+      <div id="modal">
+          <div id="modal-content">
+            <div id="subscription-widget">
+                <form id="subscription-form">
+                  <label for="email">Подпишитесь на наши новости:</label>
+                  <input type="email" id="email" name="email" placeholder="Введите ваш email" required>
+                  <input type="submit" value="Подписаться">
+                </form>
+              </div>
+          </div>
+        </div>
+        <script>
+        $(document).ready(function() {
+            $('#subscription-form').submit(function(event) {
+              event.preventDefault();
+              var email = $('#email').val();
+              alert('Спасибо за подписку, ' + email + '!');
+              $("#modal").fadeOut();
+            });
+          });
+        </script>
+        <script>
+            $(document).ready(function(){
+              $("#open-modal").click(function(){
+                $("#modal").fadeIn();
+              });
+              
+              $("#close-modal").click(function(){
+                $("#modal").fadeOut();
+              });
+            });
+          </script>
+       <div class="hcontent">
+        Ознакомьтесь с примерами ландшафтного дизайна
+    </div>
+    <div class="boldcontent">
+        Ландшафтный дизайн проекты
+    </div>
+       <div class="content_img">
+       <div class="container_img">       
+        <div class="container_row">
+            <img class="example_img" src="./images/img2.jpg">
+            <img class="example_img" src="./images/img1.jpg">
+            <img class="example_img" src="./images/10.jpg">
+            <img class="example_img" src="./images/11.jpg">
+        </div>
+        <div class="container_row">
+            <img class="example_img" src="./images/12.jpg">
+            <img class="example_img" src="./images/13.jpg">
+            <img class="example_img" src="./images/14.jpg">
+            <img class="example_img" src="./images/15.jpg">
+          
+        </div>
+        <div class="container_row">
+            <img class="example_img" src="./images/16.jpg">
+            <img class="example_img" src="./images/17.jpg">
+            <img class="example_img" src="./images/18.jpg">
+            <img class="example_img" src="./images/19.jpg">
+        </div>
+       </div>
+    </div>
+    <div class="container_facts">
+        <div class="headtext">
+            Современный ландшафтный дизайн
+        </div>
+        <div class="textinform">
+            Ландшафтный дизайн — это искусство, которое превращает обыденные пространства в места, где природа и человеческая креативность сливаются в гармоничное целое. В последние годы, особенно в 2023-2024, актуальность ландшафтного дизайна возросла, поскольку люди стремятся создать уголки природы, где можно найти уединение и покой, восстановить силы и насладиться красотой окружающего мира
+        </div>
+    </div>
+    <div class="container_inform">
+        <h1>Интересные факты</h1>
+    </div>
+    <div class="facts">
+        <div class="inner_facts">
+            <img class="ico" src="./images/24.png">
+            <div class="fact">
+                <h2>СОЦИАЛЬНАЯ РОЛЬ</h2>
+                <p class="inffact">Ландшафтный дизайн играет ключевую роль в формировании социальных пространств. Открытые гостинные и природные бассейны становятся местами для общения и отдыха, способствуя укреплению общественных связей</p>
+            </div>
+        </div>
+        <div class="inner_facts">
+            <img class="ico" src="./images/22.png">
+            <div class="fact">
+                <h2>ЭСТЕТИЧЕСКАЯ ЦЕННОСТЬ</h2>
+                <p class="inffact">Неоспоримая красота и эстетика ландшафтного дизайна делают его не только актуальным, но и вечным. Классические дачные сады, французские парки и английские сады адаптируются к современным требованиям, сохраняя свою привлекательность на десятилетия вперед.</p>
+            </div>
+        </div>
+    </div>
+    <div class="facts">
+        <div class="inner_facts">
+            <img class="ico" src="./images/21.png">
+            <div class="fact">
+                <h2>ЭКОЛОГИЧЕСКАЯ ЗНАЧИМОСТЬ</h2>
+                <p class="inffact">Современный ландшафтный дизайн акцентирует внимание на экологичности и устойчивости к изменениям климата. Использование засухоустойчивых растений и создание экологически чистых садов становится не просто модной тенденцией, а необходимостью</p>
+            </div>
+        </div>
+        <div class="inner_facts">
+            <img class="ico" src="./images/23.png">
+            <div class="fact">
+                <h2>ТРЕНДЫ И СТАТИСТИКА</h2>
+                <p class="inffact">Статистика показывает, что более 60% новых проектов ландшафтного дизайна включают элементы, способствующие сохранению биоразнообразия и поддержанию экосистемы. Это включает в себя создание мини-лугов, использование натуральных материалов и интеграцию органических огородов в общий дизайн</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer style="height: 100%;">
+        <div tyle="display: flex; align-items: center; justify-content: center;  flex-direction:row;">
+       <div>
+            <p style="color: brown; font-family: 'Montsserat Medium'; font-size: 12px; margin-right:10%;">&copy; 2024</p>
+        <p style="color: brown; font-family: 'Montsserat Medium'; font-size: 12px;">Разработала: Долгая М.В.</p>
+       </div>
+        <div style="display: flex; align-items: center; justify-content: center; ">  <iframe src="https://www.b2b.by/polock/adresa/ulica-23-x-gvardejcev/"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+    </div>
+    </footer>
+    </body>
+</html>

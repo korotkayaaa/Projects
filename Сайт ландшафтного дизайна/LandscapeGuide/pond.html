@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <a href="./index.html" style="padding: 0; margin: 0; width: auto;"><img class = "logo" src="./images/logo.png"></a>
+            <menu>
+                <div class="navigation"><a href="aboutLandscape.html" style="color: black; text-decoration: none;"> О ландшафтном дизайне</a></div>
+                <div class="navigation"><a href="lawn.html" style="color: black; text-decoration: none;">Газон</a></div>
+                <div class="navigation"><a href="fencing.html" style="color: black; text-decoration: none;">Дорожки и ограждения</a></div>
+                <div class="navigation"><a href="designLawn.html" style="color: black; text-decoration: none;">Оформление газона</a></div>
+                <div class="navigation"><a href="pond.html" style="color: black; text-decoration: none;">Водоемы</a></div>
+            </menu>
+           </header> 
+       <div class="bodyblock" style="height: 100%">
+        <div class="leftblock">.</div>
+        <div class="textblock"id="link1">
+       <div class="centerblock" id="link8">
+        <p class="boldcontent2"  style="width: 100%;" >Оформление газона ограждениями</p>
+        <div class="blockinform">
+            <div class="contentinform">
+                <video id="myVideo" width="60%" height="100%" controls autoplay muted="loop">
+                    <source src="./video/movie4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>           
+                  <div class="contenttext" id="link2">
+                    <p class="textinform2">
+                        <ul id="myList">
+                            <li style="opacity: 0; transition: opacity 1s;">Пруд</li>
+                            <li style="opacity: 0; transition: opacity 1s;">Фонтан</li>
+                            <li style="opacity: 0; transition: opacity 1s;">Водопад</li>
+                           <li style="opacity: 0; transition: opacity 1s;">Родник</li> 
+                        <li style="opacity: 0; transition: opacity 1s;">Ручей</li>
+                        <li style="opacity: 0; transition: opacity 1s;">Декоративное болото</li>
+                        <li style="opacity: 0; transition: opacity 1s;">Бассецйн</li>
+                    </ul>
+                    <script>
+                        window.addEventListener('scroll', function() {
+                          var listItems = document.querySelectorAll('#myList li');
+                          var rect;
+                          for (var i = 0; i < listItems.length; i++) {
+                            rect = listItems[i].getBoundingClientRect();
+                            if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+                              (function(i) {
+                                setTimeout(function() {
+                                  listItems[i].style.opacity = '1';
+                                }, 200 * i);
+                              })(i);
+                            }
+                          }
+                        });
+                        </script>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div> 
+    </div>
+    <p class="boldcontent2" style="width: 100%;" >Примеры чертежей водоема</p>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"><img  src="./images/slide21.jpg" alt="Photo 1" style="width:900px; height:500px;"></div>
+            <div class="slide"><img src="./images/slide22.jpg" alt="Photo 2" style="width:900px; height:500px;"></div>
+            <div class="slide"><img src="./images/slide23.jpg" alt="Photo 3" style="width:900px; height:500px;"></div>
+            <div class="slide"><img src="./images/slide24.jpg" alt="Photo 3" style="width:900px; height:500px;"></div>
+            <div class="slide"><img src="./images/slide25.jpg" alt="Photo 3" style="width:900px; height:500px;"></div>
+            <div class="slide"><img src="./images/slide26.jpg" alt="Photo 3" style="width:900px; height:500px;"></div>
+            <div class="slide"><img src="./images/slide27.jpg" alt="Photo 3" style="width:900px; height:500px;"></div>
+            <div class="slide"><img src="./images/slide28.jpg" alt="Photo 3" style="width:900px; height:500px;"></div>
+            <div class="slide"><img src="./images/slide29.jpg" alt="Photo 3" style="width:900px; height:500px;"></div>
+            <div class="slide"><img src="./images/slide210.jpg" alt="Photo 3" style="width:900px; height:500px;"></div>
+            <div class="slide"><img src="./images/slide211.jpg" alt="Photo 3" style="width:900px; height:500px;"></div>
+            <div class="slide"><img src="./images/slide212.jpg" alt="Photo 3" style="width:900px; height:500px;"></div>
+            <div class="slide"><img src="./images/slide213.jpg" alt="Photo 3" style="width:900px; height:500px;"></div>
+            <div class="slide"><img src="./images/slide214.jpg" alt="Photo 3" style="width:900px; height:500px;"></div>
+            <div class="slide"><img src="./images/slide215.jpg" alt="Photo 3" style="width:900px; height:500px;"></div>
+        </div>
+        <button class="prev">Назад</button>
+        <button class="next">Вперед</button>
+    </div>
+    
+    <script>
+        const slider = document.querySelector('.slider');
+        const slides = document.querySelector('.slides');
+        const prevButton = document.querySelector('.prev');
+        const nextButton = document.querySelector('.next');
+        let slideIndex = 0;
+    
+        prevButton.addEventListener('click', () => {
+            slideIndex = (slideIndex <= 0) ? slides.children.length - 1 : slideIndex - 1;
+            updateSlider();
+        });
+    
+        nextButton.addEventListener('click', () => {
+            slideIndex = (slideIndex >= slides.children.length - 1) ? 0 : slideIndex + 1;
+            updateSlider();
+        });
+    
+        function updateSlider() {
+            slides.style.transform = `translateX(-${slideIndex * 100}%)`;
+        }
+    </script>
+      <footer>
+        <p style="color: brown; font-family: 'Montsserat Medium'; font-size: 12px; margin-right:10%;">&copy; 2024</p>
+        <p style="color: brown; font-family: 'Montsserat Medium'; font-size: 12px;">Разработала: Долгая М.В.</p>
+
+    </footer>
+    </body>
+</html>
