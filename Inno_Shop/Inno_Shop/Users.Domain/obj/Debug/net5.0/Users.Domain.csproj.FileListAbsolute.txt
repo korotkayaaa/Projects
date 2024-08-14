@@ -1,0 +1,12 @@
+D:\Работа\Inno_Shop\Users.Domain\bin\Debug\net5.0\Users.Domain.deps.json
+D:\Работа\Inno_Shop\Users.Domain\bin\Debug\net5.0\Users.Domain.dll
+D:\Работа\Inno_Shop\Users.Domain\bin\Debug\net5.0\ref\Users.Domain.dll
+D:\Работа\Inno_Shop\Users.Domain\bin\Debug\net5.0\Users.Domain.pdb
+D:\Работа\Inno_Shop\Users.Domain\obj\Debug\net5.0\Users.Domain.csproj.AssemblyReference.cache
+D:\Работа\Inno_Shop\Users.Domain\obj\Debug\net5.0\Users.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Работа\Inno_Shop\Users.Domain\obj\Debug\net5.0\Users.Domain.AssemblyInfoInputs.cache
+D:\Работа\Inno_Shop\Users.Domain\obj\Debug\net5.0\Users.Domain.AssemblyInfo.cs
+D:\Работа\Inno_Shop\Users.Domain\obj\Debug\net5.0\Users.Domain.csproj.CoreCompileInputs.cache
+D:\Работа\Inno_Shop\Users.Domain\obj\Debug\net5.0\Users.Domain.dll
+D:\Работа\Inno_Shop\Users.Domain\obj\Debug\net5.0\ref\Users.Domain.dll
+D:\Работа\Inno_Shop\Users.Domain\obj\Debug\net5.0\Users.Domain.pdb

@@ -1,0 +1,17 @@
+D:\Работа\Inno_Shop\Products.Application\bin\Debug\net5.0\Products.Application.deps.json
+D:\Работа\Inno_Shop\Products.Application\bin\Debug\net5.0\Products.Application.dll
+D:\Работа\Inno_Shop\Products.Application\bin\Debug\net5.0\ref\Products.Application.dll
+D:\Работа\Inno_Shop\Products.Application\bin\Debug\net5.0\Products.Application.pdb
+D:\Работа\Inno_Shop\Products.Application\bin\Debug\net5.0\Users.Application.dll
+D:\Работа\Inno_Shop\Products.Application\bin\Debug\net5.0\Users.Domain.dll
+D:\Работа\Inno_Shop\Products.Application\bin\Debug\net5.0\Users.Application.pdb
+D:\Работа\Inno_Shop\Products.Application\bin\Debug\net5.0\Users.Domain.pdb
+D:\Работа\Inno_Shop\Products.Application\obj\Debug\net5.0\Products.Application.csproj.AssemblyReference.cache
+D:\Работа\Inno_Shop\Products.Application\obj\Debug\net5.0\Products.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Работа\Inno_Shop\Products.Application\obj\Debug\net5.0\Products.Application.AssemblyInfoInputs.cache
+D:\Работа\Inno_Shop\Products.Application\obj\Debug\net5.0\Products.Application.AssemblyInfo.cs
+D:\Работа\Inno_Shop\Products.Application\obj\Debug\net5.0\Products.Application.csproj.CoreCompileInputs.cache
+D:\Работа\Inno_Shop\Products.Application\obj\Debug\net5.0\Products.Application.csproj.CopyComplete
+D:\Работа\Inno_Shop\Products.Application\obj\Debug\net5.0\Products.Application.dll
+D:\Работа\Inno_Shop\Products.Application\obj\Debug\net5.0\ref\Products.Application.dll
+D:\Работа\Inno_Shop\Products.Application\obj\Debug\net5.0\Products.Application.pdb

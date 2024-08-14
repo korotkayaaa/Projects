@@ -1,0 +1,15 @@
+D:\Работа\Inno_Shop\Users.Application\bin\Debug\net5.0\Users.Application.deps.json
+D:\Работа\Inno_Shop\Users.Application\bin\Debug\net5.0\Users.Application.dll
+D:\Работа\Inno_Shop\Users.Application\bin\Debug\net5.0\ref\Users.Application.dll
+D:\Работа\Inno_Shop\Users.Application\bin\Debug\net5.0\Users.Application.pdb
+D:\Работа\Inno_Shop\Users.Application\bin\Debug\net5.0\Users.Domain.dll
+D:\Работа\Inno_Shop\Users.Application\bin\Debug\net5.0\Users.Domain.pdb
+D:\Работа\Inno_Shop\Users.Application\obj\Debug\net5.0\Users.Application.csproj.AssemblyReference.cache
+D:\Работа\Inno_Shop\Users.Application\obj\Debug\net5.0\Users.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Работа\Inno_Shop\Users.Application\obj\Debug\net5.0\Users.Application.AssemblyInfoInputs.cache
+D:\Работа\Inno_Shop\Users.Application\obj\Debug\net5.0\Users.Application.AssemblyInfo.cs
+D:\Работа\Inno_Shop\Users.Application\obj\Debug\net5.0\Users.Application.csproj.CoreCompileInputs.cache
+D:\Работа\Inno_Shop\Users.Application\obj\Debug\net5.0\Users.Application.csproj.CopyComplete
+D:\Работа\Inno_Shop\Users.Application\obj\Debug\net5.0\Users.Application.dll
+D:\Работа\Inno_Shop\Users.Application\obj\Debug\net5.0\ref\Users.Application.dll
+D:\Работа\Inno_Shop\Users.Application\obj\Debug\net5.0\Users.Application.pdb
